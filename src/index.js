@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#create-task-form")
   let tasks = document.querySelector("#tasks");
-
+  let list = [];
   form.addEventListener('submit', event =>{
     let input = document.querySelector("#new-task-description").value;
     list.innerHTML += `<li style="color: green" data-priority="3"> ${input} <button>Click me</button>
