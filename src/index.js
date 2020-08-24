@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   list.addEventListener('click', event =>{
+    event.preventDefault();
     if (event.target.nodeName === "BUTTON"){
       event.target.parentElement.remove()
     }
