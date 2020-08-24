@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#create-task-form")
-  const list = document.querySelector("#tasks");
 
   form.addEventListener('submit', event =>{
     let input = document.querySelector("#new-task-description").value;
@@ -43,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return b.dataset.priority < a.dataset.priority ? 1 : -1
       });
 
-      debugger;
+
   })
 
 
