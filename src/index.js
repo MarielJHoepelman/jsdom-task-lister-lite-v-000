@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = document.querySelector("#new-task-description").value;
     list.innerHTML += `<li style="color: green" data-priority= "1"> ${input} <button>Click me</button>
       <select>
-        <option value="1">Low</option>
+        <option value="3">Low</option>
         <option value="2">Medium</option>
-        <option value="3">High</option>
+        <option value="1">High</option>
       </select>
     </li>`;
     event.preventDefault();
