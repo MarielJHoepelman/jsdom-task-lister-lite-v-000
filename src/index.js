@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener('submit', event =>{
     let input = document.querySelector("#new-task-description").value;
-    list.innerHTML += `<li> ${input} <button>Click me</button></li>`;
+    list.innerHTML += `<li> ${input} <button>Click me</button>
+    <select></select>
+    </li>`;
     event.preventDefault();
   });
 
