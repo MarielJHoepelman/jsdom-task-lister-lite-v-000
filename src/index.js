@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         color = "green"
         break;
       }
+      data-priority = targetValue
       event.target.parentElement.style.color = color;
   })
 
