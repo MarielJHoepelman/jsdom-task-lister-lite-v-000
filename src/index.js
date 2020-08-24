@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         break;
       }
 
-      event.target.parentElement.dataSet.priority = targetValue
+      event.target.parentElement.dataset.priority = targetValue;
       event.target.parentElement.style.color = color;
   })
 
