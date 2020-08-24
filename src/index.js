@@ -45,6 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
         return b.dataset.priority < a.dataset.priority ? 1 : -1
       });
 
+      tasks.innerHTML = ""
+
 
   })
 
