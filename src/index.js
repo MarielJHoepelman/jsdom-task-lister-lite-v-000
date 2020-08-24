@@ -22,8 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   list.addEventListener('change', event =>{
     let targetValue = event.target.value
+    let  color = event.target.parentElement.style.color
     // event.target.parentElement.style.color = event.target.value;
-    switch(event.target.value) {
+    switch(targetValue) {
       case "1":
     // code block
 
