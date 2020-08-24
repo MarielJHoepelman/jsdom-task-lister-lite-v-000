@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener('submit', event =>{
     let input = document.querySelector("#new-task-description").value;
-    list.innerHTML += `<li style="color: green" data-priority= "3"> ${input} <button>Click me</button>
+    list.innerHTML += `<li style="color: green" data-priority="3"> ${input} <button>Click me</button>
       <select>
         <option value="3">Low</option>
         <option value="2">Medium</option>
@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
         color = "green"
         break;
       }
-      data-priority = targetValue
+
+      event.target.parentElement.dataSet.priority = targetValue
       event.target.parentElement.style.color = color;
   })
 
