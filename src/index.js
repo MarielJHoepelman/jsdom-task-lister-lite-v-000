@@ -7,5 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let list = document.querySelector("#tasks");
     list.innerHTML += `<li> ${input} <button>X</button> </li>`;
     event.preventDefault();
+
   });
 });
