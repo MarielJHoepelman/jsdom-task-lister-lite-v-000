@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener('submit', event =>{
     let input = document.querySelector("#new-task-description").value;
-    list.innerHTML += `<li> ${input} <button>Click me</button>
+    list.innerHTML += `<li style="color: green"> ${input} <button>Click me</button>
       <select>
         <option value="green">Low</option>
         <option value="yellow">Medium</option>
