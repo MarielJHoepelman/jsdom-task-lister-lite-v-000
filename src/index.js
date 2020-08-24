@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
       tasks.innerHTML = ""
 
       sorted.forEach(li => {
+        console.log(li)
         document.querySelector("#tasks").appendChild(li)
       })
 
