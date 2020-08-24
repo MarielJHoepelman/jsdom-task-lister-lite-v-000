@@ -6,11 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = document.querySelector("#new-task-description").value;
     let list = document.querySelector("#tasks");
     list.innerHTML += `<li> ${input} <button>X</button> </li>`;
+
     event.preventDefault();
 
   });
-
-  document.querySelector("button").addEventListener('click', event=>{
-    debugger;
-  })
 });
