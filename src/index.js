@@ -9,4 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
 
   });
+
+  document.querySelector("button").addEventListener('click', event=>{
+    debugger;
+
+  })
+
 });
