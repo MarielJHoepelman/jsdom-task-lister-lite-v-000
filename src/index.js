@@ -11,5 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
   });
 
+  list.addEventListener('click', event =>{
+    debugger;
+  })
 
 });
