@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     list.innerHTML += `<li> ${input} <button>Click me</button>
       <select>
         <option value="">None</option>
-        <option value="low">Low</option>
-        <option value="medium">Medium</option>
-        <option value="high">High</option>
+        <option value="green">Low</option>
+        <option value="yellow">Medium</option>
+        <option value="red">High</option>
       </select>
     </li>`;
     event.preventDefault();
