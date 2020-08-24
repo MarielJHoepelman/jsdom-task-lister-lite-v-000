@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener('submit', event =>{
     let input = document.querySelector("#new-task-description").value;
-    list.innerHTML += `<li style="color: green"> ${input} <button>Click me</button>
+    list.innerHTML += `<li style="color: green" data-priority= "1"> ${input} <button>Click me</button>
       <select>
-        <option value="green">Low</option>
-        <option value="yellow">Medium</option>
-        <option value="red">High</option>
+        <option value="1">Low</option>
+        <option value="2">Medium</option>
+        <option value="3">High</option>
       </select>
     </li>`;
     event.preventDefault();
@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
   list.addEventListener('change', event =>{
-    debugger;
-    event.target.parentElement.style.color = event.target.value;
+    // event.target.parentElement.style.color = event.target.value;
+
   })
 
 });
