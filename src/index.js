@@ -21,4 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
 
+  list.addEventListener('change', event =>{
+    debugger;
+  })
+
 });
