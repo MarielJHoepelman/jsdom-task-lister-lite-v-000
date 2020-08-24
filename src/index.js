@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     list.innerHTML += `<li> ${input} <button>X</button> </li>`;
 
     event.preventDefault()
-    // document.querySelector("button").addEventListener('click', event=>{
-    //   debugger;
-    // })
+    document.querySelector("button").addEventListener('click', event=>{
+      debugger;
+    })
   });
 });
