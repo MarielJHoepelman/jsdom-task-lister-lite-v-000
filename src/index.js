@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#create-task-form")
 
   form.addEventListener('submit', event =>{
-
-    debugger;
-
+    let input = document.querySelector("#new-task-description").value
+    event.preventDefault();
   });
 });
