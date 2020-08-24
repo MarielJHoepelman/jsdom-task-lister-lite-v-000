@@ -28,10 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
     switch(targetValue) {
       case 1:
         color = "red"
+        break;
       case 2:
         color = "yellow"
+        break;
       case 3:
         color = "green"
+        break;
       }
 
       event.target.parentElement.style.color = color;
