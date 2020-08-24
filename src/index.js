@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = document.querySelector("#new-task-description").value;
     list.innerHTML += `<li> ${input} <button>Click me</button>
       <select>
-        <option value="">None</option>
         <option value="green">Low</option>
         <option value="yellow">Medium</option>
         <option value="red">High</option>
