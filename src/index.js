@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = document.querySelector("#new-task-description").value;
     list.innerHTML += "<li>"
     list.innerHTML += input
-    list.innerHTML += <button>x</button>
+    list.innerHTML += "<button>x</button>""
     list.innerHTML += "</li>";
     event.preventDefault();
   });
