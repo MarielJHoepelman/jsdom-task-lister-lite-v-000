@@ -1,4 +1,4 @@
-const myFunction = () => {console.log("here")}
+const myFunction = (event) => {console.log(event)}
 
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
