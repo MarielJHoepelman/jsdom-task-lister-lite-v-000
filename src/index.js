@@ -26,16 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // event.target.parentElement.style.color = event.target.value;
     switch(targetValue) {
       case "1":
-    // code block
-
+        color = "green"
       case "2":
-    // code block
+        color = "yellow"
       case "3":
-
-      default:
-    // code block
-}
-
+        color = "red"
+      }
+      event.target.parentElement.style.color = color
   })
 
 });
