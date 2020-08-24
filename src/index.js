@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
       sorted.forEach(li => {
         tasks.appendChild(li)
       })
-      
+
   })
 
 
