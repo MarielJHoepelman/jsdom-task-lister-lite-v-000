@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         color = "green"
       }
 
-      event.target.parentElement.style.color = colorss
+      event.target.parentElement.style.color = color;
   })
 
 });
