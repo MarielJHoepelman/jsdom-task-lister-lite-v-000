@@ -6,11 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener('submit', event =>{
     let input = document.querySelector("#new-task-description").value;
     list.innerHTML += `<li> ${input} <button>Click me</button>
-    <select>
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option></select></li>`;
+      <select>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+      </select>
+    </li>`;
     event.preventDefault();
   });
 
