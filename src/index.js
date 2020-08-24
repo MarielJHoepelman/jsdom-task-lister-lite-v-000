@@ -26,11 +26,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // event.target.parentElement.style.color = event.target.value;
     switch(targetValue) {
       case "1":
-        color = "green"
+        color = "red"
       case "2":
         color = "yellow"
       case "3":
-        color = "red"
+        color = "green"
       }
       event.target.parentElement.style.color = color
   })
