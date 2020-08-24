@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
         color = "green"
         break;
       }
-
       event.target.parentElement.style.color = color;
   })
 
