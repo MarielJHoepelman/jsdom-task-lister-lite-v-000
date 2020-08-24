@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener('submit', event =>{
 
-    debugger
+    debugger;
 
   });
 });
