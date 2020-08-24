@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
   list.addEventListener('change', event =>{
+    debugger;
     event.target.parentElement.style.color = event.target.value;
   })
 
