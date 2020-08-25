@@ -39,11 +39,11 @@ document.addEventListener("DOMContentLoaded", () => {
       event.target.parentElement.dataset.priority = targetValue;
       event.target.parentElement.style.color = color;
 
-      const tasks = document.querySelector("#tasks");
-
-      const sorted = Array.from(tasks.children).sort((a,b)=> {
-        return b.dataset.priority < a.dataset.priority ? 1 : -1
-      });
+      // const tasks = document.querySelector("#tasks");
+      //
+      // const sorted = Array.from(tasks.children).sort((a,b)=> {
+      //   return b.dataset.priority < a.dataset.priority ? 1 : -1
+      // });
 
 
   })
