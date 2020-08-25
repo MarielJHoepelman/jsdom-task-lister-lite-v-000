@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#create-task-form")
   let tasks = document.querySelector("#tasks");
   let list = [];
-  
+
   form.addEventListener('submit', event =>{
     let input = document.querySelector("#new-task-description").value;
     list.innerHTML += `<li style="color: green" data-priority="3"> ${input} <button>Click me</button>
@@ -40,18 +40,18 @@ document.addEventListener("DOMContentLoaded", () => {
       event.target.parentElement.dataset.priority = targetValue;
       event.target.parentElement.style.color = color;
 
-      tasks = document.querySelector("#tasks");
+      // tasks = document.querySelector("#tasks");
 
-      const sorted = Array.from(tasks.children).sort((a,b)=> {
-        return b.dataset.priority < a.dataset.priority ? 1 : -1
-      });
+      // const sorted = Array.from(tasks.children).sort((a,b)=> {
+      //   return b.dataset.priority < a.dataset.priority ? 1 : -1
+      // });
 
-      tasks.innerHTML = ""
-      debugger;
-      sorted.forEach(li => {
-        console.log(li)
-        document.querySelector("#tasks").appendChild(li)
-      })
+      // tasks.innerHTML = ""
+      // debugger;
+      // sorted.forEach(li => {
+      //   console.log(li)
+      //   document.querySelector("#tasks").appendChild(li)
+      // })
 
   })
 
